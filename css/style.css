@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar styles */
+.navbar-wrapper {
+    background-color: rgb(71, 85, 105);
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.navbar-main h1 {
+    text-transform: uppercase;
+}
+
+.nav-menu-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-hamburger-menu {
+    display: none;
+}
