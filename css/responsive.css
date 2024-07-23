@@ -28,4 +28,11 @@
         align-items: center;
     }
 
+    .banner-main{
+        flex-direction: column;
+    }
+
+    .banner-childs{
+        width: 100%;
+    }
 }
