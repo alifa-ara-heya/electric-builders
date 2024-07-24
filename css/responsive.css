@@ -45,6 +45,23 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .qna-main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .qna-child{
+        width: 100%;
+    }
+
+    .form-container{
+        flex-direction: column;
+    }
+
+    .form-field{
+        width: 100%;
+    }
+
     .footer-main {
         display: flex;
         flex-direction: column;
