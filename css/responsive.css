@@ -9,7 +9,7 @@
         margin-top: 20px;
     }
 
-    .popular-main{
+    .popular-main {
         grid-template-columns: repeat(2, 1fr);
 
     }
@@ -33,16 +33,21 @@
         align-items: center;
     }
 
-    .banner-main{
+    .banner-main {
         flex-direction: column;
     }
 
-    .banner-childs{
+    .banner-childs {
         width: 100%;
     }
 
-    .popular-main{
+    .popular-main {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-main {
+        display: flex;
+        flex-direction: column;
     }
 
 }
