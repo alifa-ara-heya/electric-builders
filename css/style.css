@@ -123,7 +123,7 @@
 
 .qna-child {
     width: 45%;
-    flex-basis: 200px;
+    /* flex-basis: 200px; */
     /* border: 1px solid red; */
 }
 
